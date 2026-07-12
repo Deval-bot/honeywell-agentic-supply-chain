@@ -128,11 +128,7 @@ def risk_agent(d: Data, bb: Blackboard, event_id: str):
     # ---------- STEP A0: REAL live data about this real location ------------
     # Facility identities are synthetic. The place is real, and so is
     # everything the world already knows about it.
-    try:
-        from live_data import enrich_site
-        live = enrich_site(site.city, site.country)
-    except Exception:                                        # noqa: BLE001
-        live = {}
+    live = {}
     bb.live = live
     if live:
         s, w, c = live["seismic"], live["weather"], live["country_risk"]
