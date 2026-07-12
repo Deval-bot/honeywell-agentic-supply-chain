@@ -1,0 +1,61 @@
+part_id,description,commodity,unit_cost_usd,annual_volume,single_source,qualification_lead_time_months,inventory_days_cover,requires_special_process,annual_spend_usd,tts_days
+P-1001,Sensors item 1,Sensors,1813.45,28158,True,9,15,Heat Treatment,51063125.0,15
+P-1002,Seals & Gaskets item 2,Seals & Gaskets,2105.1,32442,False,18,45,Anodising,68293654.0,45
+P-1003,Wire Harness item 3,Wire Harness,1331.44,20160,True,18,20,None,26841830.0,20
+P-1004,Bearings item 4,Bearings,1826.31,31872,False,18,15,None,58208152.0,15
+P-1005,Bearings item 5,Bearings,979.01,3940,True,12,5,None,3857299.0,5
+P-1006,Electronic Components item 6,Electronic Components,1212.69,21797,False,6,20,Heat Treatment,26433004.0,20
+P-1007,Precision Castings item 7,Precision Castings,83.18,1686,False,18,15,Anodising,140241.0,15
+P-1008,Forgings item 8,Forgings,333.85,20985,True,18,10,None,7005842.0,10
+P-1009,Wire Harness item 9,Wire Harness,1621.02,3596,True,3,20,None,5829188.0,20
+P-1010,Forgings item 10,Forgings,1407.49,25569,False,12,60,None,35988112.0,60
+P-1011,Electronic Components item 11,Electronic Components,1344.32,13053,True,18,15,Anodising,17547409.0,15
+P-1012,Electronic Components item 12,Electronic Components,1143.57,3322,False,3,60,Anodising,3798940.0,60
+P-1013,Precision Castings item 13,Precision Castings,2174.2,27899,False,9,10,Anodising,60658006.0,10
+P-1014,Electronic Components item 14,Electronic Components,410.11,10159,False,9,30,Heat Treatment,4166307.0,30
+P-1015,Machined Structures item 15,Machined Structures,1717.87,11341,True,24,30,Heat Treatment,19482364.0,30
+P-1016,Wire Harness item 16,Wire Harness,1443.1,24546,True,9,10,None,35422333.0,10
+P-1017,Sensors item 17,Sensors,928.11,30362,True,3,10,None,28179276.0,10
+P-1018,Bearings item 18,Bearings,123.42,1821,False,18,30,None,224748.0,30
+P-1019,Wire Harness item 19,Wire Harness,1234.96,4093,False,9,20,Heat Treatment,5054691.0,20
+P-1020,Forgings item 20,Forgings,453.63,17467,False,9,20,None,7923555.0,20
+P-1021,Precision Castings item 21,Precision Castings,1652.7,2003,True,9,20,None,3310358.0,20
+P-1022,Electronic Components item 22,Electronic Components,1310.14,34288,True,12,10,Non-Destructive Testing,44922080.0,10
+P-1023,Wire Harness item 23,Wire Harness,187.2,25768,False,3,20,Anodising,4823770.0,20
+P-1024,Precision Castings item 24,Precision Castings,2444.84,23103,True,9,20,None,56483139.0,20
+P-1025,Wire Harness item 25,Wire Harness,1193.62,21915,True,24,15,None,26158182.0,15
+P-1026,Sensors item 26,Sensors,2499.25,36232,False,6,5,Non-Destructive Testing,90552826.0,5
+P-1027,Machined Structures item 27,Machined Structures,265.62,925,True,3,30,None,245698.0,30
+P-1028,Precision Castings item 28,Precision Castings,188.81,12895,False,18,5,None,2434705.0,5
+P-1029,Bearings item 29,Bearings,2118.36,11417,False,6,30,None,24185316.0,30
+P-1030,Wire Harness item 30,Wire Harness,1636.74,35123,False,12,45,Non-Destructive Testing,57487219.0,45
+P-1031,Sensors item 31,Sensors,736.16,7262,False,18,45,None,5345994.0,45
+P-1032,Machined Structures item 32,Machined Structures,2575.35,16622,False,9,30,None,42807468.0,30
+P-1033,Seals & Gaskets item 33,Seals & Gaskets,888.73,37244,True,18,15,None,33099860.0,15
+P-1034,Seals & Gaskets item 34,Seals & Gaskets,1953.26,30230,False,6,45,None,59047050.0,45
+P-1035,Electronic Components item 35,Electronic Components,1315.64,33093,True,9,45,Heat Treatment,43538475.0,45
+P-1036,Seals & Gaskets item 36,Seals & Gaskets,1014.37,631,False,24,5,Non-Destructive Testing,640067.0,5
+P-1037,Bearings item 37,Bearings,832.94,38012,True,24,20,Non-Destructive Testing,31661715.0,20
+P-1038,PCB Assemblies item 38,PCB Assemblies,1644.25,18048,True,6,15,None,29675424.0,15
+P-1039,Bearings item 39,Bearings,1749.86,30144,True,18,30,None,52747780.0,30
+P-1040,Seals & Gaskets item 40,Seals & Gaskets,240.77,19877,True,3,20,Heat Treatment,4785785.0,20
+P-1041,Electronic Components item 41,Electronic Components,1150.21,35530,True,9,10,Anodising,40866961.0,10
+P-1042,Seals & Gaskets item 42,Seals & Gaskets,375.21,30508,False,12,10,Anodising,11446907.0,10
+P-1043,PCB Assemblies item 43,PCB Assemblies,222.34,28098,False,3,45,Heat Treatment,6247309.0,45
+P-1044,Electronic Components item 44,Electronic Components,1837.4,3437,True,3,60,None,6315144.0,60
+P-1045,Precision Castings item 45,Precision Castings,975.61,14951,True,18,60,Non-Destructive Testing,14586345.0,60
+P-1046,PCB Assemblies item 46,PCB Assemblies,2563.66,30184,False,9,5,None,77381513.0,5
+P-1047,Seals & Gaskets item 47,Seals & Gaskets,2021.47,22424,False,9,45,Anodising,45329443.0,45
+P-1048,Forgings item 48,Forgings,292.67,19806,True,3,20,Anodising,5796622.0,20
+P-1049,Bearings item 49,Bearings,150.16,4928,True,6,20,Non-Destructive Testing,739988.0,20
+P-1050,Precision Castings item 50,Precision Castings,1940.73,23418,False,24,15,Anodising,45448015.0,15
+P-1051,Bearings item 51,Bearings,745.71,34770,True,6,60,Heat Treatment,25928337.0,60
+P-1052,PCB Assemblies item 52,PCB Assemblies,35.55,38801,False,3,45,Heat Treatment,1379376.0,45
+P-1053,Electronic Components item 53,Electronic Components,1373.91,39719,False,3,20,Non-Destructive Testing,54570331.0,20
+P-1054,PCB Assemblies item 54,PCB Assemblies,2520.31,21019,True,12,30,None,52974396.0,30
+P-1055,Wire Harness item 55,Wire Harness,1183.99,25176,True,12,45,Non-Destructive Testing,29808132.0,45
+P-1056,Seals & Gaskets item 56,Seals & Gaskets,121.98,11382,False,24,45,None,1388376.0,45
+P-1057,Sensors item 57,Sensors,1186.88,24881,False,6,10,Non-Destructive Testing,29530761.0,10
+P-1058,Wire Harness item 58,Wire Harness,1207.76,14263,False,12,5,None,17226281.0,5
+P-1059,Electronic Components item 59,Electronic Components,2533.53,39451,True,12,20,Anodising,99950292.0,20
+P-1060,Sensors item 60,Sensors,807.53,32589,False,12,10,Non-Destructive Testing,26316595.0,10

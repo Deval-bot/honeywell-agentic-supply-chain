@@ -1,0 +1,22 @@
+event_id,event_date,event_type,site_id,supplier_id,country,severity,source,raw_text
+EVT-001,2026-06-27,Earthquake,SITE-024,SUP-018,UK,0.87,Reuters,Magnitude 6.1 earthquake near Penang; structural assessment pending.
+EVT-002,2026-06-20,Earthquake,SITE-032,SUP-023,Malaysia,0.76,Local Press,Magnitude 6.1 earthquake near Nagoya; structural assessment pending.
+EVT-003,2026-07-08,Financial Distress,SITE-002,SUP-002,Czechia,0.96,Reuters,Credit rating downgraded; supplier reports covenant breach.
+EVT-004,2026-06-21,Port Congestion,SITE-011,SUP-010,Taiwan,0.41,Court Docket,Container dwell times at nearest port up 240% week-on-week.
+EVT-005,2026-06-26,Port Congestion,SITE-019,SUP-015,India,0.36,Reuters,Container dwell times at nearest port up 240% week-on-week.
+EVT-006,2026-06-28,Port Congestion,SITE-037,SUP-027,Germany,0.43,D&B Alert,Container dwell times at nearest port up 240% week-on-week.
+EVT-007,2026-06-25,Cyber Incident,SITE-016,SUP-013,India,0.36,Supplier Notice,Ransomware disclosed; ERP and MES offline at Stuttgart.
+EVT-008,2026-06-27,Fire,SITE-032,SUP-023,Malaysia,0.79,Court Docket,"Fire reported at Nagoya facility; production halted, extent unknown."
+EVT-009,2026-07-10,Port Congestion,SITE-040,SUP-029,UK,0.77,Reuters,Container dwell times at nearest port up 240% week-on-week.
+EVT-010,2026-06-19,Fire,SITE-010,SUP-010,Taiwan,0.53,D&B Alert,"Fire reported at Sheffield facility; production halted, extent unknown."
+EVT-011,2026-07-05,Fire,SITE-021,SUP-016,Taiwan,0.87,Supplier Notice,"Fire reported at Pune facility; production halted, extent unknown."
+EVT-012,2026-07-02,Quality Escape,SITE-016,SUP-013,India,0.29,Local Press,Non-conformance batch identified; source inspection escalated.
+EVT-013,2026-06-20,Capacity Shortfall,SITE-027,SUP-019,Germany,0.26,Supplier Notice,Supplier notified customers of allocation on Forgings capacity.
+EVT-014,2026-06-29,Quality Escape,SITE-009,SUP-009,Germany,0.52,Supplier Notice,Non-conformance batch identified; source inspection escalated.
+EVT-015,2026-06-19,Export Control,SITE-015,SUP-012,Turkey,0.3,Reuters,New export licensing requirement announced for this commodity.
+EVT-016,2026-06-27,Export Control,SITE-042,SUP-030,Malaysia,0.37,Court Docket,New export licensing requirement announced for this commodity.
+EVT-017,2026-06-19,Port Congestion,SITE-006,SUP-006,France,0.5,Supplier Notice,Container dwell times at nearest port up 240% week-on-week.
+EVT-018,2026-06-26,Fire,SITE-009,SUP-009,Germany,0.27,Reuters,"Fire reported at Querétaro facility; production halted, extent unknown."
+EVT-019,2026-06-30,Port Congestion,SITE-009,SUP-009,Germany,0.36,Reuters,Container dwell times at nearest port up 240% week-on-week.
+EVT-020,2026-07-10,Cyber Incident,SITE-035,SUP-026,Taiwan,0.55,Court Docket,Ransomware disclosed; ERP and MES offline at Hsinchu.
+EVT-021,2026-07-09,Fire,SITE-004,SUP-004,USA,0.95,Reuters,Major fire at Sheffield heat treatment facility; Nadcap-accredited lines offline. Company has not given a restart date.

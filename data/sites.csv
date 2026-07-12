@@ -1,0 +1,44 @@
+site_id,supplier_id,country,city,processes,hazard_score,ttr_days
+SITE-001,SUP-001,UK,Sheffield,Non-Destructive Testing,0.29,14
+SITE-002,SUP-002,Czechia,Penang,Non-Destructive Testing,0.7,60
+SITE-003,SUP-003,UK,Hsinchu,Heat Treatment|Non-Destructive Testing,0.23,75
+SITE-004,SUP-004,USA,Sheffield,Heat Treatment|Non-Destructive Testing,0.62,90
+SITE-005,SUP-005,Turkey,Izmir,Heat Treatment,0.42,21
+SITE-006,SUP-006,France,Nagoya,CNC Machining,0.12,60
+SITE-007,SUP-007,Malaysia,Brno,CNC Machining,0.68,45
+SITE-008,SUP-008,Germany,Toulouse,Chemical Processing,0.29,21
+SITE-009,SUP-009,Germany,Querétaro,Anodising,0.56,60
+SITE-010,SUP-010,Taiwan,Sheffield,Heat Treatment,0.67,45
+SITE-011,SUP-010,Taiwan,Stuttgart,Heat Treatment|Anodising,0.5,14
+SITE-012,SUP-011,Malaysia,Hsinchu,Chemical Processing|Non-Destructive Testing,0.16,60
+SITE-013,SUP-011,Malaysia,Penang,Non-Destructive Testing,0.47,14
+SITE-014,SUP-012,Turkey,Nagoya,Anodising|Non-Destructive Testing,0.12,45
+SITE-015,SUP-012,Turkey,Suzhou,Chemical Processing,0.05,21
+SITE-016,SUP-013,India,Stuttgart,Forging|Non-Destructive Testing,0.43,45
+SITE-017,SUP-014,France,Querétaro,Forging,0.51,21
+SITE-018,SUP-015,India,Querétaro,Chemical Processing,0.55,21
+SITE-019,SUP-015,India,Querétaro,CNC Machining,0.28,45
+SITE-020,SUP-016,Taiwan,Sheffield,Non-Destructive Testing,0.5,60
+SITE-021,SUP-016,Taiwan,Pune,Chemical Processing|Non-Destructive Testing,0.51,30
+SITE-022,SUP-017,China,Nagoya,Chemical Processing|SMT Assembly,0.12,30
+SITE-023,SUP-017,China,Querétaro,Chemical Processing|Forging,0.24,21
+SITE-024,SUP-018,UK,Penang,CNC Machining|Chemical Processing,0.73,30
+SITE-025,SUP-018,UK,Sheffield,Heat Treatment|Non-Destructive Testing,0.67,60
+SITE-026,SUP-019,Germany,Penang,Forging,0.61,30
+SITE-027,SUP-019,Germany,Suzhou,Investment Casting|Anodising,0.45,30
+SITE-028,SUP-020,Taiwan,Pune,Heat Treatment|Chemical Processing,0.19,45
+SITE-029,SUP-021,USA,Querétaro,Chemical Processing|SMT Assembly,0.25,14
+SITE-030,SUP-022,Taiwan,Sheffield,Forging,0.5,21
+SITE-031,SUP-023,Malaysia,Suzhou,Investment Casting,0.71,90
+SITE-032,SUP-023,Malaysia,Nagoya,SMT Assembly,0.69,30
+SITE-033,SUP-024,Japan,Ogden,SMT Assembly,0.06,90
+SITE-034,SUP-025,Germany,Brno,Forging|Chemical Processing,0.35,90
+SITE-035,SUP-026,Taiwan,Hsinchu,SMT Assembly|CNC Machining,0.72,60
+SITE-036,SUP-027,Germany,Brno,Heat Treatment|Investment Casting,0.26,30
+SITE-037,SUP-027,Germany,Toulouse,Forging,0.65,21
+SITE-038,SUP-028,USA,Ogden,CNC Machining,0.17,30
+SITE-039,SUP-028,USA,Stuttgart,Anodising,0.71,45
+SITE-040,SUP-029,UK,Stuttgart,Forging,0.45,14
+SITE-041,SUP-029,UK,Querétaro,Heat Treatment,0.48,90
+SITE-042,SUP-030,Malaysia,Penang,Chemical Processing,0.15,30
+SITE-043,SUP-030,Malaysia,Toulouse,Chemical Processing,0.66,45
