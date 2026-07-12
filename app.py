@@ -17,8 +17,6 @@ try:
 except Exception:
     pass
 
-st.write("DEBUG — key in st.secrets:", "GEMINI_API_KEY" in st.secrets)
-st.write("DEBUG — key in os.environ:", os.environ.get("GEMINI_API_KEY") is not None)
 
 import pandas as pd                                          # noqa: E402
 from agents import Data, GLOSSARY, mock_mode    # noqa: E402
