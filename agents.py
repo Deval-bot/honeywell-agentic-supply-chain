@@ -29,24 +29,24 @@ API_URL = "https://api.anthropic.com/v1/messages"
 
 
 def mock_mode() -> bool:
-    return os.environ.get("ANTHROPIC_API_KEY") is None
+    return os.environ.get("GEMINI_API_KEY") is None
 
 
 # ---------------------------------------------------------------------------
 # LLM helpers
 # ---------------------------------------------------------------------------
 def _call(system: str, user: str, max_tokens: int = 1100) -> str:
-    r = requests.post(
-        API_URL,
-        headers={"content-type": "application/json",
-                 "x-api-key": os.environ["ANTHROPIC_API_KEY"],
-                 "anthropic-version": "2023-06-01"},
-        json={"model": MODEL, "max_tokens": max_tokens, "system": system,
-              "messages": [{"role": "user", "content": user}]},
-        timeout=90,
-    )
+    key = os.environ["GEMINI_API_KEY"]
+    url = ("https://generativelanguage.googleapis.com/v1beta/models/"
+           "gemini-2.0-flash:generateContent?key=" + key)
+    r = requests.post(url, timeout=90, json={
+        "system_instruction": {"parts": [{"text": system}]},
+        "contents": [{"parts": [{"text": user}]}],
+        "generationConfig": {"maxOutputTokens": max_tokens},
+    })
     r.raise_for_status()
-    return "".join(b.get("text", "") for b in r.json()["content"])
+    j = r.json()
+    return j["candidates"][0]["content"]["parts"][0]["text"]
 
 
 def llm_text(system: str, user: str, fallback: str = "") -> str:

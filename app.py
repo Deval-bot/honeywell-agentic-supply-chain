@@ -12,10 +12,13 @@ st.set_page_config(page_title="Honeywell Agentic Supply Chain",
 # This MUST run before agents.py is imported, because agents.py checks for the
 # key at import time to decide whether to run in mock mode.
 try:
-    if "ANTHROPIC_API_KEY" in st.secrets:
-        os.environ["ANTHROPIC_API_KEY"] = st.secrets["ANTHROPIC_API_KEY"]
-except Exception:                                            # noqa: BLE001
+    if "GEMINI_API_KEY" in st.secrets:
+        os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
+except Exception:
     pass
+
+st.write("DEBUG — key in st.secrets:", "GEMINI_API_KEY" in st.secrets)
+st.write("DEBUG — key in os.environ:", os.environ.get("GEMINI_API_KEY") is not None)
 
 import pandas as pd                                          # noqa: E402
 from agents import Data, GLOSSARY, mock_mode    # noqa: E402
